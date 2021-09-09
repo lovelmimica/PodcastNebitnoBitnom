@@ -1,0 +1,293 @@
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 03:07:37
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Nebitno o bitnom"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "C:/xampp/htdocs/nebitnobitnom.hr"
+path_new______________: "/home/nebitnoobitnomco/public_html"
+siteurl_______________: "http://nebitno-o-bitnom.com"
+url_old_______________: "http://localhost/nebitnobitnom.hr"
+url_new_______________: "http://nebitno-o-bitnom.com"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: "lovel.mimica@gmail.com"
+wp_nickname___________: "Lovel"
+wp_first_name_________: "Lovel"
+wp_last_name__________: "Mimica"
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_submissions"________________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/nebitnobitnom.hr" ================> "/home/nebitnoobitnomco/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/nebitnobitnom.hr" =============> "\/home\/nebitnoobitnomco\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fnebitnobitnom.hr" ========> "%2Fhome%2Fnebitnoobitnomco%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\nebitnobitnom.hr" ================> "/home/nebitnoobitnomco/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\nebitnobitnom.hr" =============> "\/home\/nebitnoobitnomco\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cnebitnobitnom.hr" ========> "%2Fhome%2Fnebitnoobitnomco%2Fpublic_html"
+	SEARCH  7:"//localhost/nebitnobitnom.hr" ====================> "//nebitno-o-bitnom.com"
+	SEARCH  8:"\/\/localhost\/nebitnobitnom.hr" =================> "\/\/nebitno-o-bitnom.com"
+	SEARCH  9:"%2F%2Flocalhost%2Fnebitnobitnom.hr" ==============> "%2F%2Fnebitno-o-bitnom.com"
+	SEARCH 10:"https://nebitno-o-bitnom.com" ====================> "http://nebitno-o-bitnom.com"
+	SEARCH 11:"https:\/\/nebitno-o-bitnom.com" ==================> "http:\/\/nebitno-o-bitnom.com"
+	SEARCH 12:"https%3A%2F%2Fnebitno-o-bitnom.com" ==============> "http%3A%2F%2Fnebitno-o-bitnom.com"
+
+EVALUATE TABLE: "wp_e_submissions_actions_log"____________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/nebitnobitnom.hr" ================> "/home/nebitnoobitnomco/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/nebitnobitnom.hr" =============> "\/home\/nebitnoobitnomco\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fnebitnobitnom.hr" ========> "%2Fhome%2Fnebitnoobitnomco%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\nebitnobitnom.hr" ================> "/home/nebitnoobitnomco/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\nebitnobitnom.hr" =============> "\/home\/nebitnoobitnomco\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cnebitnobitnom.hr" ========> "%2Fhome%2Fnebitnoobitnomco%2Fpublic_html"
+	SEARCH  7:"//localhost/nebitnobitnom.hr" ====================> "//nebitno-o-bitnom.com"
+	SEARCH  8:"\/\/localhost\/nebitnobitnom.hr" =================> "\/\/nebitno-o-bitnom.com"
+	SEARCH  9:"%2F%2Flocalhost%2Fnebitnobitnom.hr" ==============> "%2F%2Fnebitno-o-bitnom.com"
+	SEARCH 10:"https://nebitno-o-bitnom.com" ====================> "http://nebitno-o-bitnom.com"
+	SEARCH 11:"https:\/\/nebitno-o-bitnom.com" ==================> "http:\/\/nebitno-o-bitnom.com"
+	SEARCH 12:"https%3A%2F%2Fnebitno-o-bitnom.com" ==============> "http%3A%2F%2Fnebitno-o-bitnom.com"
+
+EVALUATE TABLE: "wp_e_submissions_values"_________________________[ROWS:    34][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/nebitnobitnom.hr" ================> "/home/nebitnoobitnomco/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/nebitnobitnom.hr" =============> "\/home\/nebitnoobitnomco\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fnebitnobitnom.hr" ========> "%2Fhome%2Fnebitnoobitnomco%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\nebitnobitnom.hr" ================> "/home/nebitnoobitnomco/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\nebitnobitnom.hr" =============> "\/home\/nebitnoobitnomco\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cnebitnobitnom.hr" ========> "%2Fhome%2Fnebitnoobitnomco%2Fpublic_html"
+	SEARCH  7:"//localhost/nebitnobitnom.hr" ====================> "//nebitno-o-bitnom.com"
+	SEARCH  8:"\/\/localhost\/nebitnobitnom.hr" =================> "\/\/nebitno-o-bitnom.com"
+	SEARCH  9:"%2F%2Flocalhost%2Fnebitnobitnom.hr" ==============> "%2F%2Fnebitno-o-bitnom.com"
+	SEARCH 10:"https://nebitno-o-bitnom.com" ====================> "http://nebitno-o-bitnom.com"
+	SEARCH 11:"https:\/\/nebitno-o-bitnom.com" ==================> "http:\/\/nebitno-o-bitnom.com"
+	SEARCH 12:"https%3A%2F%2Fnebitno-o-bitnom.com" ==============> "http%3A%2F%2Fnebitno-o-bitnom.com"
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   201][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/nebitnobitnom.hr" ================> "/home/nebitnoobitnomco/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/nebitnobitnom.hr" =============> "\/home\/nebitnoobitnomco\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fnebitnobitnom.hr" ========> "%2Fhome%2Fnebitnoobitnomco%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\nebitnobitnom.hr" ================> "/home/nebitnoobitnomco/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\nebitnobitnom.hr" =============> "\/home\/nebitnoobitnomco\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cnebitnobitnom.hr" ========> "%2Fhome%2Fnebitnoobitnomco%2Fpublic_html"
+	SEARCH  7:"//localhost/nebitnobitnom.hr" ====================> "//nebitno-o-bitnom.com"
+	SEARCH  8:"\/\/localhost\/nebitnobitnom.hr" =================> "\/\/nebitno-o-bitnom.com"
+	SEARCH  9:"%2F%2Flocalhost%2Fnebitnobitnom.hr" ==============> "%2F%2Fnebitno-o-bitnom.com"
+	SEARCH 10:"https://nebitno-o-bitnom.com" ====================> "http://nebitno-o-bitnom.com"
+	SEARCH 11:"https:\/\/nebitno-o-bitnom.com" ==================> "http:\/\/nebitno-o-bitnom.com"
+	SEARCH 12:"https%3A%2F%2Fnebitno-o-bitnom.com" ==============> "http%3A%2F%2Fnebitno-o-bitnom.com"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  8227][PG:   3][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/nebitnobitnom.hr" ================> "/home/nebitnoobitnomco/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/nebitnobitnom.hr" =============> "\/home\/nebitnoobitnomco\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fnebitnobitnom.hr" ========> "%2Fhome%2Fnebitnoobitnomco%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\nebitnobitnom.hr" ================> "/home/nebitnoobitnomco/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\nebitnobitnom.hr" =============> "\/home\/nebitnoobitnomco\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cnebitnobitnom.hr" ========> "%2Fhome%2Fnebitnoobitnomco%2Fpublic_html"
+	SEARCH  7:"//localhost/nebitnobitnom.hr" ====================> "//nebitno-o-bitnom.com"
+	SEARCH  8:"\/\/localhost\/nebitnobitnom.hr" =================> "\/\/nebitno-o-bitnom.com"
+	SEARCH  9:"%2F%2Flocalhost%2Fnebitnobitnom.hr" ==============> "%2F%2Fnebitno-o-bitnom.com"
+	SEARCH 10:"https://nebitno-o-bitnom.com" ====================> "http://nebitno-o-bitnom.com"
+	SEARCH 11:"https:\/\/nebitno-o-bitnom.com" ==================> "http:\/\/nebitno-o-bitnom.com"
+	SEARCH 12:"https%3A%2F%2Fnebitno-o-bitnom.com" ==============> "http%3A%2F%2Fnebitno-o-bitnom.com"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:  1187][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/nebitnobitnom.hr" ================> "/home/nebitnoobitnomco/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/nebitnobitnom.hr" =============> "\/home\/nebitnoobitnomco\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fnebitnobitnom.hr" ========> "%2Fhome%2Fnebitnoobitnomco%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\nebitnobitnom.hr" ================> "/home/nebitnoobitnomco/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\nebitnobitnom.hr" =============> "\/home\/nebitnoobitnomco\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cnebitnobitnom.hr" ========> "%2Fhome%2Fnebitnoobitnomco%2Fpublic_html"
+	SEARCH  7:"//localhost/nebitnobitnom.hr" ====================> "//nebitno-o-bitnom.com"
+	SEARCH  8:"\/\/localhost\/nebitnobitnom.hr" =================> "\/\/nebitno-o-bitnom.com"
+	SEARCH  9:"%2F%2Flocalhost%2Fnebitnobitnom.hr" ==============> "%2F%2Fnebitno-o-bitnom.com"
+	SEARCH 10:"https://nebitno-o-bitnom.com" ====================> "http://nebitno-o-bitnom.com"
+	SEARCH 11:"https:\/\/nebitno-o-bitnom.com" ==================> "http:\/\/nebitno-o-bitnom.com"
+	SEARCH 12:"https%3A%2F%2Fnebitno-o-bitnom.com" ==============> "http%3A%2F%2Fnebitno-o-bitnom.com"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    81][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/nebitnobitnom.hr" ================> "/home/nebitnoobitnomco/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/nebitnobitnom.hr" =============> "\/home\/nebitnoobitnomco\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fnebitnobitnom.hr" ========> "%2Fhome%2Fnebitnoobitnomco%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\nebitnobitnom.hr" ================> "/home/nebitnoobitnomco/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\nebitnobitnom.hr" =============> "\/home\/nebitnoobitnomco\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cnebitnobitnom.hr" ========> "%2Fhome%2Fnebitnoobitnomco%2Fpublic_html"
+	SEARCH  7:"//localhost/nebitnobitnom.hr" ====================> "//nebitno-o-bitnom.com"
+	SEARCH  8:"\/\/localhost\/nebitnobitnom.hr" =================> "\/\/nebitno-o-bitnom.com"
+	SEARCH  9:"%2F%2Flocalhost%2Fnebitnobitnom.hr" ==============> "%2F%2Fnebitno-o-bitnom.com"
+	SEARCH 10:"https://nebitno-o-bitnom.com" ====================> "http://nebitno-o-bitnom.com"
+	SEARCH 11:"https:\/\/nebitno-o-bitnom.com" ==================> "http:\/\/nebitno-o-bitnom.com"
+	SEARCH 12:"https%3A%2F%2Fnebitno-o-bitnom.com" ==============> "http%3A%2F%2Fnebitno-o-bitnom.com"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    33][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/nebitnobitnom.hr" ================> "/home/nebitnoobitnomco/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/nebitnobitnom.hr" =============> "\/home\/nebitnoobitnomco\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fnebitnobitnom.hr" ========> "%2Fhome%2Fnebitnoobitnomco%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\nebitnobitnom.hr" ================> "/home/nebitnoobitnomco/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\nebitnobitnom.hr" =============> "\/home\/nebitnoobitnomco\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cnebitnobitnom.hr" ========> "%2Fhome%2Fnebitnoobitnomco%2Fpublic_html"
+	SEARCH  7:"//localhost/nebitnobitnom.hr" ====================> "//nebitno-o-bitnom.com"
+	SEARCH  8:"\/\/localhost\/nebitnobitnom.hr" =================> "\/\/nebitno-o-bitnom.com"
+	SEARCH  9:"%2F%2Flocalhost%2Fnebitnobitnom.hr" ==============> "%2F%2Fnebitno-o-bitnom.com"
+	SEARCH 10:"https://nebitno-o-bitnom.com" ====================> "http://nebitno-o-bitnom.com"
+	SEARCH 11:"https:\/\/nebitno-o-bitnom.com" ==================> "http:\/\/nebitno-o-bitnom.com"
+	SEARCH 12:"https%3A%2F%2Fnebitno-o-bitnom.com" ==============> "http%3A%2F%2Fnebitno-o-bitnom.com"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    33][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/nebitnobitnom.hr" ================> "/home/nebitnoobitnomco/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/nebitnobitnom.hr" =============> "\/home\/nebitnoobitnomco\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fnebitnobitnom.hr" ========> "%2Fhome%2Fnebitnoobitnomco%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\nebitnobitnom.hr" ================> "/home/nebitnoobitnomco/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\nebitnobitnom.hr" =============> "\/home\/nebitnoobitnomco\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cnebitnobitnom.hr" ========> "%2Fhome%2Fnebitnoobitnomco%2Fpublic_html"
+	SEARCH  7:"//localhost/nebitnobitnom.hr" ====================> "//nebitno-o-bitnom.com"
+	SEARCH  8:"\/\/localhost\/nebitnobitnom.hr" =================> "\/\/nebitno-o-bitnom.com"
+	SEARCH  9:"%2F%2Flocalhost%2Fnebitnobitnom.hr" ==============> "%2F%2Fnebitno-o-bitnom.com"
+	SEARCH 10:"https://nebitno-o-bitnom.com" ====================> "http://nebitno-o-bitnom.com"
+	SEARCH 11:"https:\/\/nebitno-o-bitnom.com" ==================> "http:\/\/nebitno-o-bitnom.com"
+	SEARCH 12:"https%3A%2F%2Fnebitno-o-bitnom.com" ==============> "http%3A%2F%2Fnebitno-o-bitnom.com"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    30][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/nebitnobitnom.hr" ================> "/home/nebitnoobitnomco/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/nebitnobitnom.hr" =============> "\/home\/nebitnoobitnomco\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fnebitnobitnom.hr" ========> "%2Fhome%2Fnebitnoobitnomco%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\nebitnobitnom.hr" ================> "/home/nebitnoobitnomco/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\nebitnobitnom.hr" =============> "\/home\/nebitnoobitnomco\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cnebitnobitnom.hr" ========> "%2Fhome%2Fnebitnoobitnomco%2Fpublic_html"
+	SEARCH  7:"//localhost/nebitnobitnom.hr" ====================> "//nebitno-o-bitnom.com"
+	SEARCH  8:"\/\/localhost\/nebitnobitnom.hr" =================> "\/\/nebitno-o-bitnom.com"
+	SEARCH  9:"%2F%2Flocalhost%2Fnebitnobitnom.hr" ==============> "%2F%2Fnebitno-o-bitnom.com"
+	SEARCH 10:"https://nebitno-o-bitnom.com" ====================> "http://nebitno-o-bitnom.com"
+	SEARCH 11:"https:\/\/nebitno-o-bitnom.com" ==================> "http:\/\/nebitno-o-bitnom.com"
+	SEARCH 12:"https%3A%2F%2Fnebitno-o-bitnom.com" ==============> "http%3A%2F%2Fnebitno-o-bitnom.com"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/nebitnobitnom.hr" ================> "/home/nebitnoobitnomco/public_html"
+	SEARCH  2:"C:\/xampp\/htdocs\/nebitnobitnom.hr" =============> "\/home\/nebitnoobitnomco\/public_html"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fnebitnobitnom.hr" ========> "%2Fhome%2Fnebitnoobitnomco%2Fpublic_html"
+	SEARCH  4:"C:\xampp\htdocs\nebitnobitnom.hr" ================> "/home/nebitnoobitnomco/public_html"
+	SEARCH  5:"C:\\xampp\\htdocs\\nebitnobitnom.hr" =============> "\/home\/nebitnoobitnomco\/public_html"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cnebitnobitnom.hr" ========> "%2Fhome%2Fnebitnoobitnomco%2Fpublic_html"
+	SEARCH  7:"//localhost/nebitnobitnom.hr" ====================> "//nebitno-o-bitnom.com"
+	SEARCH  8:"\/\/localhost\/nebitnobitnom.hr" =================> "\/\/nebitno-o-bitnom.com"
+	SEARCH  9:"%2F%2Flocalhost%2Fnebitnobitnom.hr" ==============> "%2F%2Fnebitno-o-bitnom.com"
+	SEARCH 10:"https://nebitno-o-bitnom.com" ====================> "http://nebitno-o-bitnom.com"
+	SEARCH 11:"https:\/\/nebitno-o-bitnom.com" ==================> "http:\/\/nebitno-o-bitnom.com"
+	SEARCH 12:"https%3A%2F%2Fnebitno-o-bitnom.com" ==============> "http%3A%2F%2Fnebitno-o-bitnom.com"
+--------------------------------------
+SCANNED:	Tables:16 	|	 Rows:9849 	|	 Cells:62204 
+UPDATED:	Tables:5 	|	 Rows:1923 	|	 Cells:2648 
+ERRORS:		0 
+RUNTIME:	1.227400 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+NEW WP-ADMIN USER:
+- New username 'lovel.mimica' was created successfully allong with MU usermeta.
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 03:07:39 - RUNTIME: 1.2759 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+====================================

@@ -1,0 +1,5 @@
+[17-Aug-2021 11:06:06 UTC] PHP Fatal error:  Call to undefined function Elementor\Core\get_plugins() in /home/nebitnoobitnomco/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[24-Aug-2021 12:04:36 UTC] PHP Fatal error:  Call to undefined function Elementor\Core\get_plugins() in /home/nebitnoobitnomco/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[27-Aug-2021 16:52:24 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /home/nebitnoobitnomco/public_html/wp-includes/class-wp-query.php on line 3465
+[27-Aug-2021 16:52:25 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /home/nebitnoobitnomco/public_html/wp-includes/class-wp-query.php on line 3465
+[27-Aug-2021 16:52:27 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /home/nebitnoobitnomco/public_html/wp-includes/class-wp-query.php on line 3465
